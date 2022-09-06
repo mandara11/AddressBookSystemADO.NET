@@ -5,6 +5,10 @@
         public static void Main(string[] args)
         {
             Console.WriteLine(" Welcome to AddressBookSystem ADO.NET");
+            AddressBookManagement addressBookManagement = new AddressBookManagement();
+
+            //UC1
+            addressBookManagement.DataBaseConnection();
         }
     }
 }
