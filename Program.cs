@@ -18,6 +18,9 @@
 
             //UC4                                                      // Zip,   FirstName, LastName
             Console.WriteLine(addressBookManagement.EditContactUsingName("577101", "Ekta", "Kapoor") ? "Update Record successfully\n" : "Update failed");
+
+            //UC5
+            Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kapoor") ? "Record Deleted successfully\n" : "Delete failed");
         }
         //UC3:Ability to insert new Contacts to Address Book
         public static void AddNewContactDetails()
