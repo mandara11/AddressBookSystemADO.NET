@@ -24,6 +24,9 @@
             
             //UC6
             addressBookManagement.RetrieveContactFromCityOrStateName();
+
+            //UC7
+            addressBookManagement.CountByCityOrState();
         }
         //UC3:Ability to insert new Contacts to Address Book
         public static void AddNewContactDetails()
