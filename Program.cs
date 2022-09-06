@@ -21,6 +21,9 @@
 
             //UC5
             Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kapoor") ? "Record Deleted successfully\n" : "Delete failed");
+            
+            //UC6
+            addressBookManagement.RetrieveContactFromCityOrStateName();
         }
         //UC3:Ability to insert new Contacts to Address Book
         public static void AddNewContactDetails()
